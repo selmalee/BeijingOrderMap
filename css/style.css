@@ -44,9 +44,24 @@ body, .swiper-container, .swiper-wrapper, .swiper-slide {
 .start_1_mask {
 	left: 31%; top: 4%;
 	width: 16%; height: 14%;
-	animation: move1 .3s linear .3s forwards;
+}
+.move1 {
+    -webkit-animation-name: move1;
+    animation-name: move1;
 }
 @keyframes move1{
+	0%{
+		top: 4%;
+	}
+	99%{
+		opacity: .9;
+	}
+	100%{
+		top: 18%;
+		opacity: 0;
+	}
+}
+@-webkit-keyframes move1{
 	0%{
 		top: 4%;
 	}
@@ -66,9 +81,24 @@ body, .swiper-container, .swiper-wrapper, .swiper-slide {
 .start_2_mask {
 	left: 0; top: 5.8%;
 	width: 100%; height: 31.5%;
-	animation: move2 .9s linear .6s forwards;
+}
+.move2 {
+    -webkit-animation-name: move2;
+    animation-name: move2;
 }
 @keyframes move2{
+	0%{
+		left: 0;
+	}
+	99.9%{
+		opacity: .9;
+	}
+	100%{
+		left: 100%;
+		opacity: 0;
+	}
+}
+@-webkit-keyframes move2{
 	0%{
 		left: 0;
 	}
@@ -88,9 +118,24 @@ body, .swiper-container, .swiper-wrapper, .swiper-slide {
 .start_3_mask {
 	left: 20%; top: 33.6%;
 	width: 23%; height: 19.5%;
-	animation: move3 .3s linear 1.5s forwards;
+}
+.move3 {
+    -webkit-animation-name: move3;
+    animation-name: move3;
 }
 @keyframes move3{
+	0%{
+		top: 33.6%;
+	}
+	99%{
+		opacity: .9;
+	}
+	100%{
+		top: 53.1%;
+		opacity: 0;
+	}
+}
+@-webkit-keyframes move3{
 	0%{
 		top: 33.6%;
 	}
@@ -110,9 +155,24 @@ body, .swiper-container, .swiper-wrapper, .swiper-slide {
 .start_4_mask {
 	left: 30%; top: 21.8%;
 	width: 64%; height: 23%;
-	animation: move4 .6s linear 1.8s forwards;
+}
+.move4 {
+    -webkit-animation-name: move4;
+    animation-name: move4;
 }
 @keyframes move4{
+	0%{
+		left: 30%;
+	}
+	99%{
+		opacity: .9;
+	}
+	100%{
+		left: 94%;
+		opacity: 0;
+	}
+}
+@-webkit-keyframes move4{
 	0%{
 		left: 30%;
 	}
@@ -132,9 +192,25 @@ body, .swiper-container, .swiper-wrapper, .swiper-slide {
 .start_5_mask {
 	left: 38%; top: 35.3%;
 	width: 44.9%; height: 15.3%;
-	animation: move5 .6s linear 2.4s forwards;
+
+}
+.move5 {
+    -webkit-animation-name: move5;
+    animation-name: move5;
 }
 @keyframes move5{
+	0%{
+		left: 38%;
+	}
+	99.9%{
+		opacity: .9;
+	}
+	100%{
+		left: 93%;
+		opacity: 0;
+	}
+}
+@-webkit-keyframes move5{
 	0%{
 		left: 38%;
 	}
@@ -154,9 +230,24 @@ body, .swiper-container, .swiper-wrapper, .swiper-slide {
 .start_6_mask {
 	left: 59%; top: 44.5%;
 	width: 30%; height: 29.5%;
-	animation: move6 .3s linear 3s forwards;
+}
+.move6 {
+    -webkit-animation-name: move6;
+    animation-name: move6;
 }
 @keyframes move6{
+	0%{
+		top: 44.5%;
+	}
+	99.9%{
+		opacity: .99;
+	}
+	100%{
+		left: 72.5%;
+		opacity: 0;
+	}
+}
+@-webkit-keyframes move6{
 	0%{
 		top: 44.5%;
 	}
@@ -176,9 +267,24 @@ body, .swiper-container, .swiper-wrapper, .swiper-slide {
 .start_7_mask {
 	left: 0; top: 66%;
 	width: 78.5%; height: 26%;
-	animation: move7 .9s linear 3.3s forwards;
+}
+.move7 {
+    -webkit-animation-name: move7;
+    animation-name: move7;
 }
 @keyframes move7{
+	0%{
+		left: 0;
+	}
+	99.9%{
+		opacity: .99;
+	}
+	100%{
+		left: -78.5%;
+		opacity: 0;
+	}
+}
+@-webkit-keyframes move7{
 	0%{
 		left: 0;
 	}
@@ -198,9 +304,24 @@ body, .swiper-container, .swiper-wrapper, .swiper-slide {
 .start_8_mask {
 	left: 33%; top: 53%;
 	width: 20%; height: 20%;
-	animation: move8 .3s linear 4.2s forwards;
+}
+.move8 {
+    -webkit-animation-name: move8;
+    animation-name: move8;
 }
 @keyframes move8{
+	0%{
+		top: 53%;
+	}
+	99.9%{
+		opacity: .99;
+	}
+	100%{
+		top: 83%;
+		opacity: 0;
+	}
+}
+@-webkit-keyframes move8{
 	0%{
 		top: 53%;
 	}
@@ -220,9 +341,24 @@ body, .swiper-container, .swiper-wrapper, .swiper-slide {
 .start_9_mask {
 	right: 0; top: 43%;
 	width: 18%; height: 10%;
-	animation: move9 .3s linear 4.5s forwards;
+}
+.move9 {
+    -webkit-animation-name: move9;
+    animation-name: move9;
 }
 @keyframes move9{
+	0%{
+		right: 0;
+	}
+	99.9%{
+		opacity: .99;
+	}
+	100%{
+		right: -18%;
+		opacity: 0;
+	}
+}
+@-webkit-keyframes move9{
 	0%{
 		right: 0;
 	}
@@ -254,34 +390,81 @@ body, .swiper-container, .swiper-wrapper, .swiper-slide {
 	left: 83%; top: 32%;
 	width: 6%; height: 8%;
 	transform: rotate(55deg);
+	-webkit-transform: rotate(55deg);
 	opacity: 0;
-	animation: car1 2s linear 5.4s infinite;
+	animation-iteration-count:infinite;
+	-webkit-animation-iteration-count:infinite;
+	animation-direction:forwards;
+	-webkit-animation-direction:forwards; 
+	animation-timing-function:linear;
+	-webkit-animation-timing-function:linear;
 }
-@keyframes car1{
+.carmove1 {
+    -webkit-animation-name: carmove1;
+    animation-name: carmove1;
+}
+@keyframes carmove1{
 	0%{
-		opacity: 1;
 		left: 83%; top: 32%;
 		transform: rotate(55deg);
+		opacity: 0;
+	}
+	0.1%{
+		left: 83%; top: 32%;
+		transform: rotate(55deg);
+		opacity: 1;
 	}
 	40%{
-		opacity: 1;
 		left: 35%; top: 42.9%;
 		transform: rotate(55deg);
+		opacity: 1;
 	}
 	50%{
-		opacity: 1;
 		left: 35%; top: 42.9%;
 		transform: rotate(235deg);
+		opacity: 1;
 	}
 	90%{
-		opacity: 1;
 		left: 83%; top: 32%;
 		transform: rotate(235deg);
+		opacity: 1;
 	}
 	100%{
-		opacity: 1;
 		left: 83%; top: 32%;
 		transform: rotate(55deg);
+		opacity: 1;
+	}
+}
+@-webkit-keyframes carmove1{
+	0%{
+		left: 83%; top: 32%;
+		-webkit-transform: rotate(55deg);
+		opacity: 0;
+	}
+	0.1%{
+		left: 83%; top: 32%;
+		transform: rotate(55deg);
+		opacity: 1;
+	}
+	40%{
+		left: 35%; top: 42.9%;
+		-webkit-transform: rotate(55deg);
+		opacity: 1;
+	}
+	50%{
+		left: 35%; top: 42.9%;
+		-webkit-transform: rotate(235deg);
+		opacity: 1;
+	}
+	90%{
+		left: 83%; top: 32%;
+		-webkit-transform: rotate(235deg);
+		opacity: 1;
+	}
+	100%{
+		left: 83%; top: 32%;
+		-webkit-transform: rotate(55deg);
+		opacity: 1;
 	}
 }
 .start_car2 {
@@ -289,10 +472,23 @@ body, .swiper-container, .swiper-wrapper, .swiper-slide {
 	left: 73%; top: 58%;
 	width: 7%; height: 5%;
 	opacity: 0;
-	animation: car2 2s linear 5.5s infinite;
+	animation-iteration-count:infinite;
+	-webkit-animation-iteration-count:infinite;
+	animation-direction:forwards;
+	-webkit-animation-direction:forwards; 
+	animation-timing-function:linear;
+	-webkit-animation-timing-function:linear;
 }
-@keyframes car2{
+.carmove2 {
+    -webkit-animation-name: carmove2;
+    animation-name: carmove2;
+}
+@keyframes carmove2{
 	0%{
+		opacity: 0;
+		left: 73%; top: 58%;
+	}
+	0.1%{
 		opacity: 1;
 		left: 73%; top: 58%;
 	}
@@ -320,6 +516,41 @@ body, .swiper-container, .swiper-wrapper, .swiper-slide {
 		opacity: 1;
 		left: 73%; top: 58%;
 		transform: rotate(0deg);
+	}
+}
+@-webkit-keyframes carmove2{
+	0%{
+		opacity: 0;
+		left: 73%; top: 58%;
+	}
+	0.1%{
+		opacity: 1;
+		left: 73%; top: 58%;
+	}
+	20%{
+		opacity: 1;
+		left: 66%; top: 46%;
+		-webkit-transform: rotate(0deg);
+	}
+	30%{
+		opacity: 1;
+		left: 66%; top: 46%;
+		-webkit-transform: rotate(180deg);
+	}
+	70%{
+		opacity: 1;
+		left: 78%; top: 66.57%;
+		-webkit-transform: rotate(180deg);
+	}
+	80%{
+		opacity: 1;
+		left: 78%; top: 66.57%;
+		-webkit-transform: rotate(0deg);
+	}
+	100%{
+		opacity: 1;
+		left: 73%; top: 58%;
+		-webkit-transform: rotate(0deg);
 	}
 }
 .start_car3 {
@@ -327,10 +558,23 @@ body, .swiper-container, .swiper-wrapper, .swiper-slide {
 	left: 29%; top: 74%;
 	width: 13%; height: 6%;
 	opacity: 0;
-	animation: car3 2s linear 5.6s infinite;
+	animation-iteration-count:infinite;
+	-webkit-animation-iteration-count:infinite;
+	animation-direction:forwards;
+	-webkit-animation-direction:forwards; 
+	animation-timing-function:linear;
+	-webkit-animation-timing-function:linear;
 }
-@keyframes car3{
+.carmove3 {
+    -webkit-animation-name: carmove3;
+    animation-name: carmove3;
+}
+@keyframes carmove3{
 	0%{
+		opacity: 0;
+		left: 29%; top: 74%;
+	}
+	0.1%{
 		opacity: 1;
 		left: 29%; top: 74%;
 	}
@@ -360,18 +604,69 @@ body, .swiper-container, .swiper-wrapper, .swiper-slide {
 		transform: rotate(0deg);
 	}
 }
+@-webkit-keyframes carmove3{
+	0%{
+		opacity: 0;
+		left: 29%; top: 74%;
+	}
+	0.1%{
+		opacity: 1;
+		left: 29%; top: 74%;
+	}
+	20%{
+		opacity: 1;
+		left: 65%; top: 66.5%;
+		-webkit-transform: rotate(0deg);
+	}
+	30%{
+		opacity: 1;
+		left: 65%; top: 66.5%;
+		-webkit-transform: rotate(180deg);
+	}
+	70%{
+		opacity: 1;
+		left: 5%; top: 80.5%;
+		-webkit-transform: rotate(180deg);
+	}
+	80%{
+		opacity: 1;
+		left: 5%; top: 80.5%;
+		-webkit-transform: rotate(0deg);
+	}
+	100%{
+		opacity: 1;
+		left: 29%; top: 74%;
+		-webkit-transform: rotate(0deg);
+	}
+}
 .start_next {
 	background-image: url("../img/next.png");
 	left: 45%; bottom: 5%;
 	width: 10%; height: 3%;
-	animation: next .6s linear 5.7s infinite;
+	opacity: 0;
+	z-index: 100;
 }
-@keyframes next{
+.nextmove {
+    -webkit-animation-name: nextmove;
+    animation-name: nextmove;
+}
+@keyframes nextmove{
 	0%{
-		opacity: 0;
+		opacity: 1;
 		bottom: 5%;
 	}
 	100%{
+		opacity: 1;
+		bottom: 3%;
+	}
+}
+@-webkit-keyframes nextmove{
+	0%{
+		opacity: 1;
+		bottom: 5%;
+	}
+	100%{
+		opacity: 1;
 		bottom: 3%;
 	}
 }
@@ -396,9 +691,6 @@ body, .swiper-container, .swiper-wrapper, .swiper-slide {
    ---------------------------------------------------------------*/
 
 /*------------------------- wfh start -------------------------------*/
-.page2 {
-	display: none;
-}
 .page2 .container{
 	width:100%;
 	height:100%;

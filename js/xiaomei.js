@@ -12,4 +12,5 @@ $(document).ready(function(){
 		var stylesheet = '<style type="text/css">.contain { -webkit-transform: scale('+ zoom +'); transform: scale('+ zoom +'); }</style>';
 		$('head').append(stylesheet);
 	}
+	calcZoom();
 })
