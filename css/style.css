@@ -22,7 +22,7 @@ body, .swiper-container, .swiper-wrapper, .swiper-slide {
 }
 .page1, .page3 {
 	background-color: #203451;
-	/*background-image: url("../img/bg.png");*/
+	/*background-image: url("http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/bg.png");*/
 }
 .page2 {
 	background-color: #ccc;
@@ -32,368 +32,35 @@ body, .swiper-container, .swiper-wrapper, .swiper-slide {
 	position: absolute;
 }
 /*--------------------page1-------------------------*/
-.start_mask {
-	position: absolute;
-	background-color: #203451;
-}
-.start_1 {
-	background-image: url("../img/start_1.png");
-	left: 31%; top: 4%;
-	width: 16%; height: 14%;
-}
-.start_1_mask {
-	left: 31%; top: 4%;
-	width: 16%; height: 14%;
-}
-.move1 {
-    -webkit-animation-name: move1;
-    animation-name: move1;
-}
-@keyframes move1{
-	0%{
-		top: 4%;
-	}
-	99%{
-		opacity: .9;
-	}
-	100%{
-		top: 18%;
-		opacity: 0;
-	}
-}
-@-webkit-keyframes move1{
-	0%{
-		top: 4%;
-	}
-	99%{
-		opacity: .9;
-	}
-	100%{
-		top: 18%;
-		opacity: 0;
-	}
-}
-.start_2 {
-	background-image: url("../img/start_2.png");
-	left: 0; top: 5.8%;
-	width: 100%; height: 31.5%;
-}
-.start_2_mask {
-	left: 0; top: 5.8%;
-	width: 100%; height: 31.5%;
-}
-.move2 {
-    -webkit-animation-name: move2;
-    animation-name: move2;
-}
-@keyframes move2{
-	0%{
-		left: 0;
-	}
-	99.9%{
-		opacity: .9;
-	}
-	100%{
-		left: 100%;
-		opacity: 0;
-	}
-}
-@-webkit-keyframes move2{
-	0%{
-		left: 0;
-	}
-	99.9%{
-		opacity: .9;
-	}
-	100%{
-		left: 100%;
-		opacity: 0;
-	}
-}
-.start_3 {
-	background-image: url("../img/start_3.png");
-	left: 20%; top: 33.6%;
-	width: 23%; height: 19.5%;
-}
-.start_3_mask {
-	left: 20%; top: 33.6%;
-	width: 23%; height: 19.5%;
-}
-.move3 {
-    -webkit-animation-name: move3;
-    animation-name: move3;
-}
-@keyframes move3{
-	0%{
-		top: 33.6%;
-	}
-	99%{
-		opacity: .9;
-	}
-	100%{
-		top: 53.1%;
-		opacity: 0;
-	}
-}
-@-webkit-keyframes move3{
-	0%{
-		top: 33.6%;
-	}
-	99%{
-		opacity: .9;
-	}
-	100%{
-		top: 53.1%;
-		opacity: 0;
-	}
-}
-.start_4 {
-	background-image: url("../img/start_4.png");
-	left: 30%; top: 21.8%;
-	width: 64%; height: 23%;
-}
-.start_4_mask {
-	left: 30%; top: 21.8%;
-	width: 64%; height: 23%;
-}
-.move4 {
-    -webkit-animation-name: move4;
-    animation-name: move4;
-}
-@keyframes move4{
-	0%{
-		left: 30%;
-	}
-	99%{
-		opacity: .9;
-	}
-	100%{
-		left: 94%;
-		opacity: 0;
-	}
-}
-@-webkit-keyframes move4{
-	0%{
-		left: 30%;
-	}
-	99%{
-		opacity: .9;
-	}
-	100%{
-		left: 94%;
-		opacity: 0;
-	}
-}
-.start_5 {
-	background-image: url("../img/start_5.png");
-	left: 38%; top: 35.3%;
-	width: 44.9%; height: 15.3%;
-}
-.start_5_mask {
-	left: 38%; top: 35.3%;
-	width: 44.9%; height: 15.3%;
-
-}
-.move5 {
-    -webkit-animation-name: move5;
-    animation-name: move5;
-}
-@keyframes move5{
-	0%{
-		left: 38%;
-	}
-	99.9%{
-		opacity: .9;
-	}
-	100%{
-		left: 93%;
-		opacity: 0;
-	}
-}
-@-webkit-keyframes move5{
-	0%{
-		left: 38%;
-	}
-	99.9%{
-		opacity: .9;
-	}
-	100%{
-		left: 93%;
-		opacity: 0;
-	}
-}
-.start_6 {
-	background-image: url("../img/start_6.png");
-	left: 59%; top: 44.5%;
-	width: 30%; height: 29.5%;
-}
-.start_6_mask {
-	left: 59%; top: 44.5%;
-	width: 30%; height: 29.5%;
-}
-.move6 {
-    -webkit-animation-name: move6;
-    animation-name: move6;
-}
-@keyframes move6{
-	0%{
-		top: 44.5%;
-	}
-	99.9%{
-		opacity: .99;
-	}
-	100%{
-		left: 72.5%;
-		opacity: 0;
-	}
-}
-@-webkit-keyframes move6{
-	0%{
-		top: 44.5%;
-	}
-	99.9%{
-		opacity: .99;
-	}
-	100%{
-		left: 72.5%;
-		opacity: 0;
-	}
-}
-.start_7 {
-	background-image: url("../img/start_7.png");
-	left: 0; top: 66%;
-	width: 78.5%; height: 26%;
-}
-.start_7_mask {
-	left: 0; top: 66%;
-	width: 78.5%; height: 26%;
-}
-.move7 {
-    -webkit-animation-name: move7;
-    animation-name: move7;
-}
-@keyframes move7{
-	0%{
-		left: 0;
-	}
-	99.9%{
-		opacity: .99;
-	}
-	100%{
-		left: -78.5%;
-		opacity: 0;
-	}
-}
-@-webkit-keyframes move7{
-	0%{
-		left: 0;
-	}
-	99.9%{
-		opacity: .99;
-	}
-	100%{
-		left: -78.5%;
-		opacity: 0;
-	}
-}
-.start_8 {
-	background-image: url("../img/start_8.png");
-	left: 33%; top: 53%;
-	width: 20%; height: 20%;
-}
-.start_8_mask {
-	left: 33%; top: 53%;
-	width: 20%; height: 20%;
-}
-.move8 {
-    -webkit-animation-name: move8;
-    animation-name: move8;
-}
-@keyframes move8{
-	0%{
-		top: 53%;
-	}
-	99.9%{
-		opacity: .99;
-	}
-	100%{
-		top: 83%;
-		opacity: 0;
-	}
-}
-@-webkit-keyframes move8{
-	0%{
-		top: 53%;
-	}
-	99.9%{
-		opacity: .99;
-	}
-	100%{
-		top: 83%;
-		opacity: 0;
-	}
-}
-.start_9 {
-	background-image: url("../img/start_9.png");
-	right: 0; top: 43%;
-	width: 18%; height: 10%;
-}
-.start_9_mask {
-	right: 0; top: 43%;
-	width: 18%; height: 10%;
-}
-.move9 {
-    -webkit-animation-name: move9;
-    animation-name: move9;
-}
-@keyframes move9{
-	0%{
-		right: 0;
-	}
-	99.9%{
-		opacity: .99;
-	}
-	100%{
-		right: -18%;
-		opacity: 0;
-	}
-}
-@-webkit-keyframes move9{
-	0%{
-		right: 0;
-	}
-	99.9%{
-		opacity: .99;
-	}
-	100%{
-		right: -18%;
-		opacity: 0;
-	}
+.start_jing {
+	background-image: url("http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/start_jing.png");
+	left: 0; top: 1%;
+	width: 100%; height: 95%;
 }
 .start_10 {
-	background-image: url("../img/start_10.png");
+	background-image: url("http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/start_10.png");
 	left: 0; top: 17.5%;
-	width: 100%; height: 71%;
+	width: 100%; height: 74.4%;
 }
 .start_title {
-	background-image: url("../img/start_title.png");
+	background-image: url("http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/start_title.png");
 	left: 25%; top: 14%;
 	width: 50%; height: 15%;
 }
 .start_subtitle {
-	background-image: url("../img/start_subtitle.png");
+	background-image: url("http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/start_subtitle.png");
 	left: 12.5%; top: 18%;
 	width: 75%; height: 19%;
 }
 .start_car1 {
-	background-image: url("../img/start_car1.png");
-	left: 83%; top: 32%;
+	background-image: url("http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/start_car1.png");
+	left: 83%; top: 35%;
 	width: 6%; height: 8%;
 	transform: rotate(55deg);
 	-webkit-transform: rotate(55deg);
 	opacity: 0;
-	animation-iteration-count:infinite;
-	-webkit-animation-iteration-count:infinite;
+	/* animation-iteration-count:infinite;
+	-webkit-animation-iteration-count:infinite; */
 	animation-direction:forwards;
 	-webkit-animation-direction:forwards; 
 	animation-timing-function:linear;
@@ -405,22 +72,22 @@ body, .swiper-container, .swiper-wrapper, .swiper-slide {
 }
 @keyframes carmove1{
 	0%{
-		left: 83%; top: 32%;
+		left: 83%; top: 35%;
 		transform: rotate(55deg);
 		opacity: 0;
 	}
 	0.1%{
-		left: 83%; top: 32%;
+		left: 83%; top: 35%;
 		transform: rotate(55deg);
 		opacity: 1;
 	}
 	40%{
-		left: 35%; top: 42.9%;
+		left: 33%; top: 47%;
 		transform: rotate(55deg);
 		opacity: 1;
 	}
 	50%{
-		left: 35%; top: 42.9%;
+		left: 33%; top: 44%;
 		transform: rotate(235deg);
 		opacity: 1;
 	}
@@ -430,50 +97,48 @@ body, .swiper-container, .swiper-wrapper, .swiper-slide {
 		opacity: 1;
 	}
 	100%{
-		left: 83%; top: 32%;
-		transform: rotate(55deg);
+		left: 83%; top: 35%;
+		transform: rotate(415deg);
 		opacity: 1;
 	}
 }
 @-webkit-keyframes carmove1{
 	0%{
-		left: 83%; top: 32%;
-		-webkit-transform: rotate(55deg);
+		left: 83%; top: 35%;
+		transform: rotate(55deg);
 		opacity: 0;
 	}
 	0.1%{
-		left: 83%; top: 32%;
+		left: 83%; top: 35%;
 		transform: rotate(55deg);
 		opacity: 1;
 	}
 	40%{
-		left: 35%; top: 42.9%;
-		-webkit-transform: rotate(55deg);
+		left: 33%; top: 47%;
+		transform: rotate(55deg);
 		opacity: 1;
 	}
 	50%{
-		left: 35%; top: 42.9%;
-		-webkit-transform: rotate(235deg);
+		left: 33%; top: 44%;
+		transform: rotate(235deg);
 		opacity: 1;
 	}
 	90%{
 		left: 83%; top: 32%;
-		-webkit-transform: rotate(235deg);
+		transform: rotate(235deg);
 		opacity: 1;
 	}
 	100%{
-		left: 83%; top: 32%;
-		-webkit-transform: rotate(55deg);
+		left: 83%; top: 35%;
+		transform: rotate(415deg);
 		opacity: 1;
 	}
 }
 .start_car2 {
-	background-image: url("../img/start_car2.png");
-	left: 73%; top: 58%;
+	background-image: url("http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/start_car2.png");
+	left: 67%; top: 58%;
 	width: 7%; height: 5%;
 	opacity: 0;
-	animation-iteration-count:infinite;
-	-webkit-animation-iteration-count:infinite;
 	animation-direction:forwards;
 	-webkit-animation-direction:forwards; 
 	animation-timing-function:linear;
@@ -486,80 +151,78 @@ body, .swiper-container, .swiper-wrapper, .swiper-slide {
 @keyframes carmove2{
 	0%{
 		opacity: 0;
-		left: 73%; top: 58%;
+		left: 67%; top: 58%;
 	}
 	0.1%{
 		opacity: 1;
-		left: 73%; top: 58%;
+		left: 67%; top: 58%;
 	}
 	20%{
 		opacity: 1;
-		left: 66%; top: 46%;
+		left: 61%; top: 47.7%;
 		transform: rotate(0deg);
 	}
 	30%{
 		opacity: 1;
-		left: 66%; top: 46%;
+		left: 67%; top: 47.7%;
 		transform: rotate(180deg);
 	}
 	70%{
 		opacity: 1;
-		left: 78%; top: 66.57%;
+		left: 78.1%; top: 66.57%;
 		transform: rotate(180deg);
 	}
 	80%{
 		opacity: 1;
-		left: 78%; top: 66.57%;
-		transform: rotate(0deg);
+		left: 72.1%; top: 66.57%;
+		transform: rotate(360deg);
 	}
 	100%{
 		opacity: 1;
-		left: 73%; top: 58%;
-		transform: rotate(0deg);
+		left: 67%; top: 58%;
+		transform: rotate(360deg);
 	}
 }
 @-webkit-keyframes carmove2{
 	0%{
 		opacity: 0;
-		left: 73%; top: 58%;
+		left: 67%; top: 58%;
 	}
 	0.1%{
 		opacity: 1;
-		left: 73%; top: 58%;
+		left: 67%; top: 58%;
 	}
 	20%{
 		opacity: 1;
-		left: 66%; top: 46%;
-		-webkit-transform: rotate(0deg);
+		left: 61%; top: 47.7%;
+		transform: rotate(0deg);
 	}
 	30%{
 		opacity: 1;
-		left: 66%; top: 46%;
-		-webkit-transform: rotate(180deg);
+		left: 67%; top: 47.7%;
+		transform: rotate(180deg);
 	}
 	70%{
 		opacity: 1;
-		left: 78%; top: 66.57%;
-		-webkit-transform: rotate(180deg);
+		left: 78.1%; top: 66.57%;
+		transform: rotate(180deg);
 	}
 	80%{
 		opacity: 1;
-		left: 78%; top: 66.57%;
-		-webkit-transform: rotate(0deg);
+		left: 72.1%; top: 66.57%;
+		transform: rotate(360deg);
 	}
 	100%{
 		opacity: 1;
-		left: 73%; top: 58%;
-		-webkit-transform: rotate(0deg);
+		left: 67%; top: 58%;
+		transform: rotate(360deg);
 	}
 }
 .start_car3 {
-	background-image: url("../img/start_car3.png");
-	left: 29%; top: 74%;
+	background-image: url("http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/start_car3.png");
+	left: 29%; top: 76.5%;
 	width: 13%; height: 6%;
 	opacity: 0;
-	animation-iteration-count:infinite;
-	-webkit-animation-iteration-count:infinite;
 	animation-direction:forwards;
 	-webkit-animation-direction:forwards; 
 	animation-timing-function:linear;
@@ -572,118 +235,94 @@ body, .swiper-container, .swiper-wrapper, .swiper-slide {
 @keyframes carmove3{
 	0%{
 		opacity: 0;
-		left: 29%; top: 74%;
+		left: 29%; top: 76.5%;
 	}
 	0.1%{
 		opacity: 1;
-		left: 29%; top: 74%;
+		left: 29%; top: 76.5%;
 	}
 	20%{
 		opacity: 1;
-		left: 65%; top: 66.5%;
+		left: 65%; top: 68.5%;
 		transform: rotate(0deg);
 	}
 	30%{
 		opacity: 1;
-		left: 65%; top: 66.5%;
+		left: 65%; top: 72%;
 		transform: rotate(180deg);
 	}
 	70%{
 		opacity: 1;
-		left: 5%; top: 80.5%;
+		left: 5%; top: 86%;
 		transform: rotate(180deg);
 	}
 	80%{
 		opacity: 1;
-		left: 5%; top: 80.5%;
-		transform: rotate(0deg);
+		left: 5%; top: 82.5%;
+		transform: rotate(360deg);
 	}
 	100%{
 		opacity: 1;
-		left: 29%; top: 74%;
-		transform: rotate(0deg);
+		left: 29%; top: 76.5%;
+		transform: rotate(360deg);
 	}
 }
 @-webkit-keyframes carmove3{
 	0%{
 		opacity: 0;
-		left: 29%; top: 74%;
+		left: 29%; top: 76.5%;
 	}
 	0.1%{
 		opacity: 1;
-		left: 29%; top: 74%;
+		left: 29%; top: 76.5%;
 	}
 	20%{
 		opacity: 1;
-		left: 65%; top: 66.5%;
-		-webkit-transform: rotate(0deg);
+		left: 65%; top: 68.5%;
+		transform: rotate(0deg);
 	}
 	30%{
 		opacity: 1;
-		left: 65%; top: 66.5%;
-		-webkit-transform: rotate(180deg);
+		left: 65%; top: 72%;
+		transform: rotate(180deg);
 	}
 	70%{
 		opacity: 1;
-		left: 5%; top: 80.5%;
-		-webkit-transform: rotate(180deg);
+		left: 5%; top: 86%;
+		transform: rotate(180deg);
 	}
 	80%{
 		opacity: 1;
-		left: 5%; top: 80.5%;
-		-webkit-transform: rotate(0deg);
+		left: 5%; top: 82.5%;
+		transform: rotate(360deg);
 	}
 	100%{
 		opacity: 1;
-		left: 29%; top: 74%;
-		-webkit-transform: rotate(0deg);
+		left: 29%; top: 76.5%;
+		transform: rotate(360deg);
 	}
 }
 .start_next {
-	background-image: url("../img/next.png");
+	background-image: url("http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/next.png");
 	left: 45%; bottom: 5%;
 	width: 10%; height: 3%;
 	opacity: 0;
 	z-index: 100;
 }
-.nextmove {
-    -webkit-animation-name: nextmove;
-    animation-name: nextmove;
-}
-@keyframes nextmove{
-	0%{
-		opacity: 1;
-		bottom: 5%;
-	}
-	100%{
-		opacity: 1;
-		bottom: 3%;
-	}
-}
-@-webkit-keyframes nextmove{
-	0%{
-		opacity: 1;
-		bottom: 5%;
-	}
-	100%{
-		opacity: 1;
-		bottom: 3%;
-	}
-}
 
 /*--------------------page3-------------------------*/
 .end_saying {
-	background-image: url("../img/end_saying.png");
+	background-image: url("http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/end_saying.png");
 	left: 7.5%; top: 35%;
 	width: 85%; height: 15%;
 }
 .end_1 {
-	background-image: url("../img/end_1.png");
+	background-image: url("http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/end_1.png");
 	left: 16.5%; top: 78%;
 	width: 67%; height: 8%;
 }
 .end_2 {
-	background-image: url("../img/end_2.png");
+	background-image: url("http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/end_2.png");
 	left: 20%; top: 89%;
 	width: 60%; height: 7%;
 }
@@ -713,12 +352,10 @@ iframe{
 	transform: translate(-50%,-50%);
 	-webkit-transform: translate(-50%,-50%);
 	z-index: 2;
-	/*display: none;*/
+	display: none;
 }
 #introduction .closeBtn{
 	width:13%;
-	/*height: 10%;*/
-	/*background-color: yellow;*/
 	position: absolute;
 	top:0;
 	right:0;
@@ -739,10 +376,14 @@ iframe{
 	margin: 5px;
 }
 .introText{
-	font-size: 1rem;
 	text-align: left;
-	line-height: 1.5;
 	margin-top: 20px;
+}
+.introText>p{
+	margin:8px 0;
+	color:#fff;
+	font-size: 1.1rem;
+	line-height: 1.5;
 }
 
 #operateArea{
@@ -762,7 +403,7 @@ iframe{
 	border-bottom:1px solid #fff;
 }
 #mainBtns>li{
-	width:33.1%;
+	width:33.3%;
 	height:100%;
 	line-height: 2.5;
 	float:left;
@@ -804,7 +445,7 @@ iframe{
 	background-color:#fff;
 }
 #caseTypes>li{
-	width:10.8%;
+	width:11.1%;
 	height:100%;
 	float:left;
 	color:#223452;
@@ -828,7 +469,7 @@ iframe{
 	top:12%;
 	left:5%;
 	background-color: #223452;
-	padding:2px;
+	padding:2px 10px 2px 5px;
 	font-size: 12px;
 	display: none;
 }
@@ -836,22 +477,51 @@ iframe{
 	display: inline-block;
 	width:15px;
 	height:15px;
-	background-image: url('../img/icon_total.png');
+	background-image: url('http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/icon_total.png');
 	background-position:0 0;
 	background-repeat: no-repeat;
 	background-size: cover;
 	vertical-align: bottom;
 }
 /*------------------------- wfh end -------------------------------*/
-/*
-.page1{
-	display: none
-}*/
 
-/*spirite图 39px*39px  46-39px*/
+.mui-poppicker-body{
+    height: 120px;
+    font-size: 4vw;
+    font-family: "Microsoft YaHei UI";
+}
+.mui-poppicker-header {
+    padding: 3px;
+    font-size: 14px;
+    color: #ffffff;
+    background: #223452;
+}
+.mui-btn-blue{
+    color: #ffffff;
+    border: none;
+    background: #223452;
+}
+.mui-poppicker-btn-cancel{
+    color: #ffffff;
+    border: none;
+    background: #223452;
+}
+
+
+
 @media screen and (max-width: 640px) {
 	html {
 		font-size: 3.8vw;/* 16/414=3.8，实现字体大小自适应*/
 		width: 100%;
 	}
+}
+
+
+
+.page1{
+	/*display: none*/
+}
+
+#iframe{
+	/*display: none*/
 }
