@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+	    <title>iframe</title>
+	    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+	</head>
+	<body class="fontfix no-select">
+		<iframe id="mapframe" src="map.html" width="1024" height="768" frameborder="no"></iframe>
+		<button class="type">诈骗</button>
+		<button class="alltype">全部类型</button>
+		<button class="month">201405</button>
+		<button class="year">2015</button>
+	</body>
+	<script src="lib/leaflet/leaflet.js"></script>
+	<script>
+		var frame = {
+			load: function() {
+				var type = document.querySelector('button.type'),
+					alltype = document.querySelector('button.alltype'),
+					month = document.querySelector('button.month'),
+					year = document.querySelector('button.year');
+				
+				L.DomEvent.on(type, 'click', this._type, this);
+				L.DomEvent.on(alltype, 'click', this._alltype, this);
+				L.DomEvent.on(month, 'click', this._month, this);
+				L.DomEvent.on(year, 'click', this._year, this);
+			},
+			
+			_type: function(e) {
+				var child = this._child();
+				child.geoq.setType(e.target.innerHTML);
+			},
+			
+			_alltype: function(e) {
+				var child = this._child();
+				child.geoq.setType('');
+			},
+			
+			_month: function(e) {
+				var child = this._child();
+				child.geoq.setTime(e.target.innerHTML);
+			},
+			
+			_year: function(e) {
+				var child = this._child();
+				child.geoq.setTime(e.target.innerHTML);
+			},
+			
+			_child: function() {
+				return document.getElementById('mapframe').contentWindow;
+			}
+		};
+		
+		function showIntro() {
+			alert('show intro');
+		}
+		
+		L.DomEvent.on(document, 'DOMContentLoaded', function() {
+			frame.load();
+		});
+	</script>
+</html>

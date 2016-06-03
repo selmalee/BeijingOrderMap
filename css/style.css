@@ -1,527 +1,761 @@
 /* xiaomei li start
    ---------------------------------------------------------------*/
 * {
-	margin: 0; padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
 html {
-	font-size: 16px;
-	font-family: "Microsoft YaHei UI", sans-serif;
-	width: 360px; height: 100%;
+    font-size: 16px;
+    font-family: "Microsoft YaHei UI", sans-serif;
+    width: 360px;
+    height: 100%;
 }
+
 body, .swiper-container, .swiper-wrapper, .swiper-slide {
-	width: 100%; height: 100%;
-	position: relative;
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
+
 .swiper-container {
-	overflow: hidden;
+    overflow: hidden;
 }
+
 .swiper-slide {
-	color: #fff;
-	font-size: 4rem;
-	text-align: center;
+    color: #fff;
+    font-size: 4rem;
+    text-align: center;
 }
+
 .page1, .page3 {
-	background-color: #203451;
-	/*background-image: url("http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/bg.png");*/
+    background-color: #203451;
+    /*background-image: url("http://static.dyclub.org/img/2016/05/pekingSecurity/bg.png");*/
 }
+
 .page2 {
-	background-color: #ccc;
+    background-color: #ccc;
 }
+
 .img {
-	background-size: 100% 100%;
-	position: absolute;
+    background-size: 100% 100%;
+    position: absolute;
 }
+
 /*--------------------page1-------------------------*/
 .start_jing {
-	background-image: url("http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/start_jing.png");
-	left: 0; top: 1%;
-	width: 100%; height: 95%;
+    background-image: url("http://static.dyclub.org/img/2016/05/pekingSecurity/start_jing.png");
+    left: 0;
+    top: 1%;
+    width: 100%;
+    height: 95%;
 }
+
 .start_10 {
-	background-image: url("http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/start_10.png");
-	left: 0; top: 17.5%;
-	width: 100%; height: 74.4%;
+    background-image: url("http://static.dyclub.org/img/2016/05/pekingSecurity/start_10.png");
+    left: 0;
+    top: 17.5%;
+    width: 100%;
+    height: 74.4%;
 }
+
 .start_title {
-	background-image: url("http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/start_title.png");
-	left: 25%; top: 14%;
-	width: 50%; height: 15%;
+    background-image: url("http://static.dyclub.org/img/2016/05/pekingSecurity/start_title.png");
+    left: 24.2%;
+    top: 14.4%;
+    width: 50%;
+    height: 15.6%;
 }
+
 .start_subtitle {
-	background-image: url("http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/start_subtitle.png");
-	left: 12.5%; top: 18%;
-	width: 75%; height: 19%;
+    background-image: url("../img/start_subtitle.png");
+    left: 12.5%;
+    top: 17.5%;
+    width: 75%;
+    height: 21.2%;
 }
+
 .start_car1 {
-	background-image: url("http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/start_car1.png");
-	left: 83%; top: 35%;
-	width: 6%; height: 8%;
-	transform: rotate(55deg);
-	-webkit-transform: rotate(55deg);
-	opacity: 0;
-	/* animation-iteration-count:infinite;
-	-webkit-animation-iteration-count:infinite; */
-	animation-direction:forwards;
-	-webkit-animation-direction:forwards; 
-	animation-timing-function:linear;
-	-webkit-animation-timing-function:linear;
+    background-image: url("http://static.dyclub.org/img/2016/05/pekingSecurity/start_car1.png");
+    left: 83%;
+    top: 33.4%;
+    width: 6%;
+    height: 8%;
+    transform: rotate(55deg);
+    -webkit-transform: rotate(55deg);
+    opacity: 0;
+    /* animation-iteration-count:infinite;
+    -webkit-animation-iteration-count:infinite; */
+    animation-direction: forwards;
+    -webkit-animation-direction: forwards;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
 }
+
 .carmove1 {
     -webkit-animation-name: carmove1;
     animation-name: carmove1;
 }
-@keyframes carmove1{
-	0%{
-		left: 83%; top: 35%;
-		transform: rotate(55deg);
-		opacity: 0;
-	}
-	0.1%{
-		left: 83%; top: 35%;
-		transform: rotate(55deg);
-		opacity: 1;
-	}
-	40%{
-		left: 33%; top: 47%;
-		transform: rotate(55deg);
-		opacity: 1;
-	}
-	50%{
-		left: 33%; top: 44%;
-		transform: rotate(235deg);
-		opacity: 1;
-	}
-	90%{
-		left: 83%; top: 32%;
-		transform: rotate(235deg);
-		opacity: 1;
-	}
-	100%{
-		left: 83%; top: 35%;
-		transform: rotate(415deg);
-		opacity: 1;
-	}
+
+@keyframes carmove1 {
+    0% {
+        left: 77%;
+        top: 33.4%;
+        transform: rotate(55deg);
+        opacity: 0;
+    }
+    0.1% {
+        left: 77%;
+        top: 33.4%;
+        transform: rotate(55deg);
+        opacity: 1;
+    }
+    100% {
+        left: 35%;
+        top: 43.5%;
+        transform: rotate(55deg);
+        opacity: 1;
+    }
 }
-@-webkit-keyframes carmove1{
-	0%{
-		left: 83%; top: 35%;
-		transform: rotate(55deg);
-		opacity: 0;
-	}
-	0.1%{
-		left: 83%; top: 35%;
-		transform: rotate(55deg);
-		opacity: 1;
-	}
-	40%{
-		left: 33%; top: 47%;
-		transform: rotate(55deg);
-		opacity: 1;
-	}
-	50%{
-		left: 33%; top: 44%;
-		transform: rotate(235deg);
-		opacity: 1;
-	}
-	90%{
-		left: 83%; top: 32%;
-		transform: rotate(235deg);
-		opacity: 1;
-	}
-	100%{
-		left: 83%; top: 35%;
-		transform: rotate(415deg);
-		opacity: 1;
-	}
+
+@-webkit-keyframes carmove1 {
+    0% {
+        left: 77%;
+        top: 33.4%;
+        transform: rotate(55deg);
+        opacity: 0;
+    }
+    0.1% {
+        left: 77%;
+        top: 33.4%;
+        transform: rotate(55deg);
+        opacity: 1;
+    }
+    100% {
+        left: 33%;
+        top: 43.5%;
+        transform: rotate(55deg);
+        opacity: 1;
+    }
 }
+
 .start_car2 {
-	background-image: url("http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/start_car2.png");
-	left: 67%; top: 58%;
-	width: 7%; height: 5%;
-	opacity: 0;
-	animation-direction:forwards;
-	-webkit-animation-direction:forwards; 
-	animation-timing-function:linear;
-	-webkit-animation-timing-function:linear;
+    background-image: url("http://static.dyclub.org/img/2016/05/pekingSecurity/start_car2.png");
+    left: 78%;
+    top: 66.57%;
+    width: 7%;
+    height: 5%;
+    opacity: 0;
+    animation-direction: forwards;
+    -webkit-animation-direction: forwards;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
 }
+
 .carmove2 {
     -webkit-animation-name: carmove2;
     animation-name: carmove2;
 }
-@keyframes carmove2{
-	0%{
-		opacity: 0;
-		left: 67%; top: 58%;
-	}
-	0.1%{
-		opacity: 1;
-		left: 67%; top: 58%;
-	}
-	20%{
-		opacity: 1;
-		left: 61%; top: 47.7%;
-		transform: rotate(0deg);
-	}
-	30%{
-		opacity: 1;
-		left: 67%; top: 47.7%;
-		transform: rotate(180deg);
-	}
-	70%{
-		opacity: 1;
-		left: 78.1%; top: 66.57%;
-		transform: rotate(180deg);
-	}
-	80%{
-		opacity: 1;
-		left: 72.1%; top: 66.57%;
-		transform: rotate(360deg);
-	}
-	100%{
-		opacity: 1;
-		left: 67%; top: 58%;
-		transform: rotate(360deg);
-	}
+
+@keyframes carmove2 {
+    0% {
+        opacity: 0;
+        left: 78%;
+        top: 66.57%;
+    }
+    0.1% {
+        opacity: 1;
+        left: 78%;
+        top: 66.57%;
+    }
+    100% {
+        opacity: 1;
+        left: 66%;
+        top: 47.7%;
+        transform: rotate(0deg);
+    }
 }
-@-webkit-keyframes carmove2{
-	0%{
-		opacity: 0;
-		left: 67%; top: 58%;
-	}
-	0.1%{
-		opacity: 1;
-		left: 67%; top: 58%;
-	}
-	20%{
-		opacity: 1;
-		left: 61%; top: 47.7%;
-		transform: rotate(0deg);
-	}
-	30%{
-		opacity: 1;
-		left: 67%; top: 47.7%;
-		transform: rotate(180deg);
-	}
-	70%{
-		opacity: 1;
-		left: 78.1%; top: 66.57%;
-		transform: rotate(180deg);
-	}
-	80%{
-		opacity: 1;
-		left: 72.1%; top: 66.57%;
-		transform: rotate(360deg);
-	}
-	100%{
-		opacity: 1;
-		left: 67%; top: 58%;
-		transform: rotate(360deg);
-	}
+
+@-webkit-keyframes carmove2 {
+    0% {
+        opacity: 0;
+        left: 78%;
+        top: 66.57%;
+    }
+    0.1% {
+        opacity: 1;
+        left: 78%;
+        top: 66.57%;
+    }
+    100% {
+        opacity: 1;
+        left: 66%;
+        top: 47.7%;
+        transform: rotate(0deg);
+    }
 }
+
 .start_car3 {
-	background-image: url("http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/start_car3.png");
-	left: 29%; top: 76.5%;
-	width: 13%; height: 6%;
-	opacity: 0;
-	animation-direction:forwards;
-	-webkit-animation-direction:forwards; 
-	animation-timing-function:linear;
-	-webkit-animation-timing-function:linear;
+    background-image: url("http://static.dyclub.org/img/2016/05/pekingSecurity/start_car3.png");
+    left: 5%;
+    top: 86%;
+    width: 13%;
+    height: 6%;
+    opacity: 0;
+    animation-direction: forwards;
+    -webkit-animation-direction: forwards;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
 }
+
 .carmove3 {
     -webkit-animation-name: carmove3;
     animation-name: carmove3;
 }
-@keyframes carmove3{
-	0%{
-		opacity: 0;
-		left: 29%; top: 76.5%;
-	}
-	0.1%{
-		opacity: 1;
-		left: 29%; top: 76.5%;
-	}
-	20%{
-		opacity: 1;
-		left: 65%; top: 68.5%;
-		transform: rotate(0deg);
-	}
-	30%{
-		opacity: 1;
-		left: 65%; top: 72%;
-		transform: rotate(180deg);
-	}
-	70%{
-		opacity: 1;
-		left: 5%; top: 86%;
-		transform: rotate(180deg);
-	}
-	80%{
-		opacity: 1;
-		left: 5%; top: 82.5%;
-		transform: rotate(360deg);
-	}
-	100%{
-		opacity: 1;
-		left: 29%; top: 76.5%;
-		transform: rotate(360deg);
-	}
+
+@keyframes carmove3 {
+    0% {
+        opacity: 0;
+        left: 5%;
+        top: 86%;
+    }
+    0.1% {
+        opacity: 1;
+        left: 5%;
+        top: 86%;
+    }
+    100% {
+        opacity: 1;
+        left: 65%;
+        top: 72%;
+        transform: rotate(0deg);
+    }
 }
-@-webkit-keyframes carmove3{
-	0%{
-		opacity: 0;
-		left: 29%; top: 76.5%;
-	}
-	0.1%{
-		opacity: 1;
-		left: 29%; top: 76.5%;
-	}
-	20%{
-		opacity: 1;
-		left: 65%; top: 68.5%;
-		transform: rotate(0deg);
-	}
-	30%{
-		opacity: 1;
-		left: 65%; top: 72%;
-		transform: rotate(180deg);
-	}
-	70%{
-		opacity: 1;
-		left: 5%; top: 86%;
-		transform: rotate(180deg);
-	}
-	80%{
-		opacity: 1;
-		left: 5%; top: 82.5%;
-		transform: rotate(360deg);
-	}
-	100%{
-		opacity: 1;
-		left: 29%; top: 76.5%;
-		transform: rotate(360deg);
-	}
+
+@-webkit-keyframes carmove3 {
+    0% {
+        opacity: 0;
+        left: 5%;
+        top: 86%;
+    }
+    0.1% {
+        opacity: 1;
+        left: 5%;
+        top: 86%;
+    }
+    100% {
+        opacity: 1;
+        left: 65%;
+        top: 72%;
+        transform: rotate(0deg);
+    }
 }
+
 .start_next {
-	background-image: url("http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/next.png");
-	left: 45%; bottom: 5%;
-	width: 10%; height: 3%;
-	opacity: 0;
-	z-index: 100;
+    background-image: url("http://static.dyclub.org/img/2016/05/pekingSecurity/next.png");
+    left: 45%;
+    bottom: 5%;
+    width: 10%;
+    height: 3%;
+    opacity: 0;
+    z-index: 100;
 }
 
 /*--------------------page3-------------------------*/
-.end_saying {
-	background-image: url("http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/end_saying.png");
-	left: 7.5%; top: 35%;
-	width: 85%; height: 15%;
-}
 .end_1 {
-	background-image: url("http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/end_1.png");
-	left: 16.5%; top: 78%;
-	width: 67%; height: 8%;
+    background-image: url("../img/end_1.png");
+    left: 11.75%; top: 10.3%;
+    width: 76.5%; height: 10%;
 }
 .end_2 {
-	background-image: url("http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/end_2.png");
-	left: 20%; top: 89%;
-	width: 60%; height: 7%;
+    background-image: url("../img/end_2.png");
+    left: 7.9%; top: 30.7%;
+    width: 84.2%; height: 14.3%;
 }
+.end_3 {
+    background-image: url("../img/end_3.png");
+    left: 9.4%; top: 56.8%;
+    width: 81.2%; height: 22.8%;
+}
+.end_3 img {
+    position: absolute;
+    width: 100%; height: 100%;
+    left: -18.45%; top: -37.88%;
+    display: block;
+    border: none;
+    opacity: 0;
+}
+.end_4 {
+    background-image: url("../img/end_4.png");
+    left: 7.85%; bottom: 3.7%;
+    width: 84.3%; height: 7.7%;
+}
+
 /* xiaomei li end
    ---------------------------------------------------------------*/
 
 /*------------------------- wfh start -------------------------------*/
-.page2 .container{
-	width:100%;
-	height:100%;
-	font-size: 1rem;
-}
-iframe{
-	width:100%;
-	height:100%;
-	position: absolute;
-	top:0;
-	left:0;
-}
-#introduction{
-	width:75%;
-	min-height:50%;
-	background-color: #223452;
-	position: absolute;
-	top:50%;
-	left:50%;
-	transform: translate(-50%,-50%);
-	-webkit-transform: translate(-50%,-50%);
-	z-index: 2;
-	display: none;
-}
-#introduction .closeBtn{
-	width:13%;
-	position: absolute;
-	top:0;
-	right:0;
-	transform: translate(50%,-50%);
-	-webkit-transform: translate(50%,-50%);
-
-}
-.box{
-	margin:5px;
-	padding:8%;
-	border:1px solid #fff;
-}
-.introTitle{
-	font-size: 1.2rem;
-	font-weight: normal;
-}
-#introduction hr{
-	margin: 5px;
-}
-.introText{
-	text-align: left;
-	margin-top: 20px;
-}
-.introText>p{
-	margin:8px 0;
-	color:#fff;
-	font-size: 1.1rem;
-	line-height: 1.5;
+.page2 .container {
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
 }
 
-#operateArea{
-	width:100%;
-	height:24%;
-	position: absolute;
-	left:0;
-	bottom:0;
-	background-color: #223452;
-	display: none;
+iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
-#mainBtns{
-	width:100%;
-	height:30%;
-	list-style-type: none;
-	border-top:1px solid #fff;
-	border-bottom:1px solid #fff;
+
+#introduction {
+    width: 75%;
+    /*min-height:50%;*/
+    height: auto;
+    background-color: #223452;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 2;
+    display: none;
 }
-#mainBtns>li{
-	width:33.3%;
-	height:100%;
-	line-height: 2.5;
-	float:left;
-	text-align: center;
-	/*vertical-align: middle;*/
-	position: relative;
+
+#introduction .closeBtn {
+    width: 13%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    -webkit-transform: translate(50%, -50%);
+
 }
-#mainBtns>li>span{
-	position: absolute;
-	top:50%;
-	left:50%;
-	transform:translate(-50%,-50%);
-	-webkit-transform:translate(-50%,-50%);
+
+.box {
+    margin: 5px;
+    padding: 2% 8%;
+    border: 1px solid #fff;
 }
+
+.introText {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.introText > p {
+    margin: 3px 0;
+    color: #fff;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.introText > .first-para {
+    margin-bottom: .9rem;
+}
+
+.introText > .last-para {
+    margin-top: .9rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.introText > .last-para > img {
+    height: 1em;
+    vertical-align: middle;
+    margin: 0 2px 4px;
+}
+
+#operateArea {
+    width: 100%;
+    height: 16%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #223452;
+    display: none;
+}
+
+#mainBtns {
+    width: 100%;
+    height: 30%;
+    min-height: 2.5rem;
+    list-style-type: none;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+#mainBtns > li {
+    width: 33.3%;
+    height: 100%;
+    line-height: 2.5;
+    float: left;
+    text-align: center;
+    /*vertical-align: middle;*/
+    position: relative;
+}
+
+#mainBtns > li > span {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    font-size: 1.1rem;
+}
+
 #caseTypeBtn,
-#caseTimeBtn{
-	border-right:1px solid #fff;
-}
-#mainBtns>li.active{
-	background-color: #fff;
-	color:#223452;
-	font-weight: bold;
-}
-.nextPageBtn{
-	width:8%;
-	position: absolute;
-	top:65%;
-	left:50%;
-	transform:translate(-50%,-50%);
-	-webkit-transform:translate(-50%,-50%);
-}
-#caseTypes{
-	width:90%;
-	height:2rem;		/*预设，实际将用js使每个文字框为正方形*/
-	position: absolute;
-	top:-2.5rem;
-	left:5%;
-	list-style-type: none;
-	background-color:#fff;
-}
-#caseTypes>li{
-	width:11.1%;
-	height:100%;
-	float:left;
-	color:#223452;
-	line-height: 2;
-	/*margin:5px 0;*/
-	border-left: 1px solid #eee;
+#caseTimeBtn {
+    border-right: 1px solid #fff;
 }
 
-#caseTypes>li:first-child{
-	border-left:none;
-}
-#caseTypes>li.active{
-	background-color: #223452;
-	color:#fff;
-	/*font-weight: bold;*/
+#mainBtns > li.active {
+    background-color: #fff;
+    color: #223452;
+    font-weight: bold;
 }
 
-#legend{
-	/*height:20px;*/
-	position: absolute;
-	top:12%;
-	left:5%;
-	background-color: #223452;
-	padding:2px 10px 2px 5px;
-	font-size: 12px;
-	display: none;
+.nextPageBtn {
+    width: 8%;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
-#legend .icon{
-	display: inline-block;
-	width:15px;
-	height:15px;
-	background-image: url('http://dyclub-static.oss-cn-qingdao.aliyuncs.com/img/2016/05/pekingSecurity/icon_total.png');
-	background-position:0 0;
-	background-repeat: no-repeat;
-	background-size: cover;
-	vertical-align: bottom;
+
+#caseTypes {
+    width: 94%;
+    height: 2.52rem; /*预设，实际将用js使每个文字框为正方形*/
+    position: absolute;
+    top: -3rem;
+    left: 3%;
+    list-style-type: none;
+    background-color: #fff;
 }
+
+#caseTypes > li {
+    width: 11.1%;
+    height: 100%;
+    float: left;
+    color: #223452;
+    line-height: 2.1;
+    border-left: 1px solid #eee;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#caseTypes > li:first-child {
+    border-left: none;
+}
+
+#caseTypes > li.active {
+    background-color: #223452;
+    color: #fff;
+    /*font-weight: bold;*/
+}
+
+#legend {
+    /*height:20px;*/
+    position: absolute;
+    top: 12%;
+    left: 5%;
+    background-color: #223452;
+    padding: 2px 10px 2px 5px;
+    font-size: 15px;
+    display: none;
+}
+
+#legend > span {
+    vertical-align: middle;
+}
+
+#icon {
+    display: inline-block;
+    /*	width:15px;
+        height:15px;*/
+    background-image: url('http://static.dyclub.org/img/2016/05/pekingSecurity/icons.png');
+    /*background-position:0 0;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: bottom;
+}
+
+#icon.zong {
+    width: 20px;
+    height: 23px;
+    background-position: 0 0;
+}
+
+#icon.ru {
+    width: 20px;
+    height: 23px;
+    background-position: -29px 0;
+}
+
+#icon.qiao {
+    width: 20px;
+    height: 23px;
+    background-position: -58px 0;
+}
+
+#icon.pa {
+    width: 20px;
+    height: 23px;
+    background-position: -84px 0;
+}
+
+#icon.qiang {
+    width: 20px;
+    height: 23px;
+    background-position: -166px 0;
+}
+
+#icon.ling {
+    width: 20px;
+    height: 23px;
+    background-position: -195px 0;
+}
+
+#icon.pian {
+    width: 20px;
+    height: 23px;
+    background-position: -113px 0;
+}
+
+#icon.che {
+    width: 20px;
+    height: 23px;
+    background-position: -141px 0;
+}
+
+#icon.fei {
+    width: 22px;
+    height: 23px;
+    background-position: -221px 0;
+}
+
 /*------------------------- wfh end -------------------------------*/
 
-.mui-poppicker-body{
-    height: 120px;
-    font-size: 4vw;
+.mui-poppicker-body {
+    height: 150px;
+    font-size: 14px;
     font-family: "Microsoft YaHei UI";
 }
+
 .mui-poppicker-header {
     padding: 3px;
     font-size: 14px;
     color: #ffffff;
     background: #223452;
 }
-.mui-btn-blue{
-    color: #ffffff;
-    border: none;
-    background: #223452;
-}
-.mui-poppicker-btn-cancel{
+
+.mui-btn-blue {
     color: #ffffff;
     border: none;
     background: #223452;
 }
 
+.mui-poppicker-btn-cancel {
+    color: #ffffff;
+    border: none;
+    background: #223452;
+}
 
+.region-pop {
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 25%;
+    color: #ffffff;
+    display: block;
+}
+
+.region-pop-header {
+    font-size: 5vw;
+    background: #223452;
+    text-align: center;
+    line-height: 220%;
+    margin-bottom: 3%;
+}
+
+.region-pop-body {
+    font-size: 4.3vw;
+    height: 45vh;
+    font-weight: normal;
+    background: #223452;
+    text-align: center;
+    overflow: scroll;
+}
+
+.region-item {
+    line-height: 220%;
+    border-bottom: 1px solid rgba(109, 109, 144, .6);
+}
+
+.region-detail {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    color: rgba(255, 255, 255, .8);
+    font-size: 3vw;
+    visibility: hidden;
+    z-index: -1;
+}
+
+.table-container {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    width: 90%;
+    margin-left: 5%;
+    background: #223452;
+}
+
+.region-table {
+    margin: 0 1.5%;
+    border: 1px solid rgba(255, 255, 255, .9);
+}
+
+.table-left {
+    text-align: left;
+    padding-left: 2%;
+    width: 40%;
+}
+
+.table-right {
+    text-align: left;
+    width: 40%;
+}
+
+.region-name {
+    font-size: 6vw;
+    font-weight: bolder;
+}
+
+tr {
+    line-height: 200%;
+    border-bottom: 1px solid rgba(255, 255, 255, .8);
+}
+
+.named-titles {
+    line-height: 100%;
+}
+
+.table-header > td {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.named-times {
+    font-size: 6vw;
+    font-weight: bolder;
+    padding-right: 5%;
+}
+
+#graph-container {
+    width: 100%;
+}
+
+#graph {
+    width: 100%;
+    height: 28vh;
+}
+
+.td-1 {
+    width: 30%;
+}
+
+.td-2 {
+    width: 33%;
+}
+
+.cause-type, .clicked-times, .rate-whole-city {
+    display: inline-block;
+    width: 32%;
+    padding-left: 2%;
+}
+
+.clicked-times, .rate-whole-city {
+    border-left: 1px solid rgba(255, 255, 255, .8);
+}
+
+#show-others {
+    width: 35%;
+    font-size: 5vw;
+    text-align: center;
+    line-height: 180%;
+    margin-top:4.5%;
+    margin-left: 32.5%;
+    color: rgba(255, 255, 255, .8);
+    background: #223452;
+}
+.region-item-disable{
+    background: #586C8E;;
+}
 
 @media screen and (max-width: 640px) {
-	html {
-		font-size: 3.8vw;/* 16/414=3.8，实现字体大小自适应*/
-		width: 100%;
-	}
+    html {
+        font-size: 3.8vw; /* 16/414=3.8，实现字体大小自适应*/
+        width: 100%;
+    }
 }
 
-
-
-.page1{
-	/*display: none*/
+.mui-poppicker-header .mui-btn {
+    font-size: 14px;
 }
 
-#iframe{
-	/*display: none*/
+/*.page1{
+	display: none
+}
+#introduction{
+	display: block
+}*/
+.region-pop {
+    display: none;
+}
+
+.twinkling {
+    animation: twinkling 2s linear infinite;
+    -webkit-animation: twinkling 2s linear infinite;
+}
+
+@keyframes twinkling {
+    0% {
+        opacity: 1
+    }
+    25% {
+        opacity: .5
+    }
+    50% {
+        opacity: .1
+    }
+    75% {
+        opacity: .5
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes twinkling {
+    0% {
+        opacity: 1
+    }
+    25% {
+        opacity: .5
+    }
+    50% {
+        opacity: .1
+    }
+    75% {
+        opacity: .5
+    }
+    100% {
+        opacity: 1
+    }
 }

@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+	    <title>basemap</title>
+	    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+	    <link rel="stylesheet" type="text/css" href="lib/leaflet/leaflet.css" />
+	    <link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+	<body class="fontfix no-select">
+		<div id="map"></div>
+	</body>
+	<script src="lib/leaflet/leaflet.js"></script>
+	<script src="lib/leaflet.tile.js"></script>
+	<script>
+		var map = new L.map('map', {
+			minZoom: 3,
+			maxZoom: 16,
+			zoomControl: true,
+			attributionControl: false
+		}).setView([39.9221, 116.4441], 11);
+		
+		L.control.attribution().addAttribution('<a href="http://www.geoq.cn" target="_blank">智图GeoQ</a>').addTo(map);
+		L.tileLayer.esri('http://map.geoq.cn/ArcGIS/rest/services/ChinaOnlineStreetGray/MapServer').addTo(map);
+	</script>
+</html>

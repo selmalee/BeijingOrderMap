@@ -1,0 +1,1598 @@
+[
+  {
+    "id": 1,
+    "region": "朝阳区",
+    "namedTimes": 358,
+    "rank": 1,
+    "mostNamedStreet": "朝阳区十八里店",
+    "mostHappenTime": 201501,
+    "namedTimesDetail": [
+      {
+        "month": 201401,
+        "namedTimes": 20
+      },
+      {
+        "month": 201402,
+        "namedTimes": 13
+      },
+      {
+        "month": 201403,
+        "namedTimes": 7
+      },
+      {
+        "month": 201404,
+        "namedTimes": 24
+      },
+      {
+        "month": 201405,
+        "namedTimes": 18
+      },
+      {
+        "month": 201406,
+        "namedTimes": 17
+      },
+      {
+        "month": 201407,
+        "namedTimes": 21
+      },
+      {
+        "month": 201408,
+        "namedTimes": 19
+      },
+      {
+        "month": 201409,
+        "namedTimes": 14
+      },
+      {
+        "month": 201410,
+        "namedTimes": 19
+      },
+      {
+        "month": 201411,
+        "namedTimes": 12
+      },
+      {
+        "month": 201412,
+        "namedTimes": 18
+      },
+      {
+        "month": 201501,
+        "namedTimes": 39
+      },
+      {
+        "month": 201502,
+        "namedTimes": 16
+      },
+      {
+        "month": 201503,
+        "namedTimes": 15
+      },
+      {
+        "month": 201504,
+        "namedTimes": 15
+      },
+      {
+        "month": 201505,
+        "namedTimes": 14
+      },
+      {
+        "month": 201506,
+        "namedTimes": 17
+      },
+      {
+        "month": 201507,
+        "namedTimes": 6
+      },
+      {
+        "month": 201508,
+        "namedTimes": 0
+      },
+      {
+        "month": 201509,
+        "namedTimes": 0
+      },
+      {
+        "month": 201510,
+        "namedTimes": 17
+      },
+      {
+        "month": 201511,
+        "namedTimes": 12
+      },
+      {
+        "month": 201512,
+        "namedTimes": 5
+      }
+    ],
+    "causeDetail": [
+      {
+        "causeType": "扒窃",
+        "namedTimes": 41,
+        "percent": "11.45%"
+      },
+      {
+        "causeType": "盗窃非机动车",
+        "namedTimes": 19,
+        "percent": "5.31%"
+      },
+      {
+        "causeType": "盗窃机动车",
+        "namedTimes": 16,
+        "percent": "4.47%"
+      },
+      {
+        "causeType": "拎包盗窃",
+        "namedTimes": 13,
+        "percent": "3.63%"
+      },
+      {
+        "causeType": "抢劫/抢夺",
+        "namedTimes": 3,
+        "percent": "0.84%"
+      },
+      {
+        "causeType": "撬砸汽车",
+        "namedTimes": 63,
+        "percent": "17.60%"
+      },
+      {
+        "causeType": "入室盗窃",
+        "namedTimes": 147,
+        "percent": "41.06%"
+      },
+      {
+        "causeType": "诈骗",
+        "namedTimes": 56,
+        "percent": "15.64%"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "region": "丰台区",
+    "namedTimes": 257,
+    "rank": 2,
+    "mostNamedStreet": "丰台区丰台镇",
+    "mostHappenTime": 201410,
+    "namedTimesDetail": [
+      {
+        "month": 201401,
+        "namedTimes": 19
+      },
+      {
+        "month": 201402,
+        "namedTimes": 15
+      },
+      {
+        "month": 201403,
+        "namedTimes": 7
+      },
+      {
+        "month": 201404,
+        "namedTimes": 24
+      },
+      {
+        "month": 201405,
+        "namedTimes": 17
+      },
+      {
+        "month": 201406,
+        "namedTimes": 16
+      },
+      {
+        "month": 201407,
+        "namedTimes": 22
+      },
+      {
+        "month": 201408,
+        "namedTimes": 19
+      },
+      {
+        "month": 201409,
+        "namedTimes": 15
+      },
+      {
+        "month": 201410,
+        "namedTimes": 26
+      },
+      {
+        "month": 201411,
+        "namedTimes": 12
+      },
+      {
+        "month": 201412,
+        "namedTimes": 16
+      },
+      {
+        "month": 201501,
+        "namedTimes": 21
+      },
+      {
+        "month": 201502,
+        "namedTimes": 2
+      },
+      {
+        "month": 201503,
+        "namedTimes": 5
+      },
+      {
+        "month": 201504,
+        "namedTimes": 4
+      },
+      {
+        "month": 201505,
+        "namedTimes": 4
+      },
+      {
+        "month": 201506,
+        "namedTimes": 3
+      },
+      {
+        "month": 201507,
+        "namedTimes": 2
+      },
+      {
+        "month": 201508,
+        "namedTimes": 0
+      },
+      {
+        "month": 201509,
+        "namedTimes": 0
+      },
+      {
+        "month": 201510,
+        "namedTimes": 4
+      },
+      {
+        "month": 201511,
+        "namedTimes": 2
+      },
+      {
+        "month": 201512,
+        "namedTimes": 2
+      }
+    ],
+    "causeDetail": [
+      {
+        "causeType": "扒窃",
+        "namedTimes": 38,
+        "percent": "14.79%"
+      },
+      {
+        "causeType": "盗窃非机动车",
+        "namedTimes": 4,
+        "percent": "1.56%"
+      },
+      {
+        "causeType": "盗窃机动车",
+        "namedTimes": 10,
+        "percent": "3.89%"
+      },
+      {
+        "causeType": "拎包盗窃",
+        "namedTimes": 26,
+        "percent": "10.12%"
+      },
+      {
+        "causeType": "抢劫/抢夺",
+        "namedTimes": 7,
+        "percent": "2.72%"
+      },
+      {
+        "causeType": "撬砸汽车",
+        "namedTimes": 40,
+        "percent": "15.56%"
+      },
+      {
+        "causeType": "入室盗窃",
+        "namedTimes": 87,
+        "percent": "33.85%"
+      },
+      {
+        "causeType": "诈骗",
+        "namedTimes": 45,
+        "percent": "17.51%"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "region": "海淀区",
+    "namedTimes": 191,
+    "rank": 3,
+    "mostNamedStreet": "海淀区田村",
+    "mostHappenTime": 201404,
+    "namedTimesDetail": [
+      {
+        "month": 201401,
+        "namedTimes": 9
+      },
+      {
+        "month": 201402,
+        "namedTimes": 13
+      },
+      {
+        "month": 201403,
+        "namedTimes": 4
+      },
+      {
+        "month": 201404,
+        "namedTimes": 23
+      },
+      {
+        "month": 201405,
+        "namedTimes": 11
+      },
+      {
+        "month": 201406,
+        "namedTimes": 13
+      },
+      {
+        "month": 201407,
+        "namedTimes": 13
+      },
+      {
+        "month": 201408,
+        "namedTimes": 12
+      },
+      {
+        "month": 201409,
+        "namedTimes": 12
+      },
+      {
+        "month": 201410,
+        "namedTimes": 16
+      },
+      {
+        "month": 201411,
+        "namedTimes": 8
+      },
+      {
+        "month": 201412,
+        "namedTimes": 12
+      },
+      {
+        "month": 201501,
+        "namedTimes": 19
+      },
+      {
+        "month": 201502,
+        "namedTimes": 2
+      },
+      {
+        "month": 201503,
+        "namedTimes": 4
+      },
+      {
+        "month": 201504,
+        "namedTimes": 3
+      },
+      {
+        "month": 201505,
+        "namedTimes": 5
+      },
+      {
+        "month": 201506,
+        "namedTimes": 4
+      },
+      {
+        "month": 201507,
+        "namedTimes": 2
+      },
+      {
+        "month": 201508,
+        "namedTimes": 0
+      },
+      {
+        "month": 201509,
+        "namedTimes": 0
+      },
+      {
+        "month": 201510,
+        "namedTimes": 1
+      },
+      {
+        "month": 201511,
+        "namedTimes": 5
+      },
+      {
+        "month": 201512,
+        "namedTimes": 0
+      }
+    ],
+    "causeDetail": [
+      {
+        "causeType": "扒窃",
+        "namedTimes": 19,
+        "percent": "9.95%"
+      },
+      {
+        "causeType": "盗窃非机动车",
+        "namedTimes": 18,
+        "percent": "9.42%"
+      },
+      {
+        "causeType": "盗窃机动车",
+        "namedTimes": 6,
+        "percent": "3.14%"
+      },
+      {
+        "causeType": "拎包盗窃",
+        "namedTimes": 2,
+        "percent": "1.05%"
+      },
+      {
+        "causeType": "撬砸汽车",
+        "namedTimes": 32,
+        "percent": "16.75%"
+      },
+      {
+        "causeType": "入室盗窃",
+        "namedTimes": 55,
+        "percent": "28.80%"
+      },
+      {
+        "causeType": "诈骗",
+        "namedTimes": 59,
+        "percent": "30.89%"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "region": "西城区",
+    "namedTimes": 154,
+    "rank": 4,
+    "mostNamedStreet": "西城区西单大街",
+    "mostHappenTime": 201501,
+    "namedTimesDetail": [
+      {
+        "month": 201401,
+        "namedTimes": 9
+      },
+      {
+        "month": 201402,
+        "namedTimes": 7
+      },
+      {
+        "month": 201403,
+        "namedTimes": 6
+      },
+      {
+        "month": 201404,
+        "namedTimes": 20
+      },
+      {
+        "month": 201405,
+        "namedTimes": 9
+      },
+      {
+        "month": 201406,
+        "namedTimes": 5
+      },
+      {
+        "month": 201407,
+        "namedTimes": 10
+      },
+      {
+        "month": 201408,
+        "namedTimes": 8
+      },
+      {
+        "month": 201409,
+        "namedTimes": 8
+      },
+      {
+        "month": 201410,
+        "namedTimes": 9
+      },
+      {
+        "month": 201411,
+        "namedTimes": 6
+      },
+      {
+        "month": 201412,
+        "namedTimes": 15
+      },
+      {
+        "month": 201501,
+        "namedTimes": 26
+      },
+      {
+        "month": 201502,
+        "namedTimes": 4
+      },
+      {
+        "month": 201503,
+        "namedTimes": 6
+      },
+      {
+        "month": 201504,
+        "namedTimes": 0
+      },
+      {
+        "month": 201505,
+        "namedTimes": 0
+      },
+      {
+        "month": 201506,
+        "namedTimes": 1
+      },
+      {
+        "month": 201507,
+        "namedTimes": 3
+      },
+      {
+        "month": 201508,
+        "namedTimes": 0
+      },
+      {
+        "month": 201509,
+        "namedTimes": 0
+      },
+      {
+        "month": 201510,
+        "namedTimes": 1
+      },
+      {
+        "month": 201511,
+        "namedTimes": 1
+      },
+      {
+        "month": 201512,
+        "namedTimes": 0
+      }
+    ],
+    "causeDetail": [
+      {
+        "causeType": "扒窃",
+        "namedTimes": 35,
+        "percent": "22.73%"
+      },
+      {
+        "causeType": "盗窃非机动车",
+        "namedTimes": 12,
+        "percent": "7.79%"
+      },
+      {
+        "causeType": "盗窃机动车",
+        "namedTimes": 2,
+        "percent": "1.30%"
+      },
+      {
+        "causeType": "拎包盗窃",
+        "namedTimes": 6,
+        "percent": "3.90%"
+      },
+      {
+        "causeType": "抢劫/抢夺",
+        "namedTimes": 1,
+        "percent": "0.65%"
+      },
+      {
+        "causeType": "撬砸汽车",
+        "namedTimes": 5,
+        "percent": "3.25%"
+      },
+      {
+        "causeType": "入室盗窃",
+        "namedTimes": 40,
+        "percent": "25.97%"
+      },
+      {
+        "causeType": "诈骗",
+        "namedTimes": 53,
+        "percent": "34.42%"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "region": "石景山区",
+    "namedTimes": 71,
+    "rank": 5,
+    "mostNamedStreet": "石景山区鲁谷",
+    "mostHappenTime": 201404,
+    "namedTimesDetail": [
+      {
+        "month": 201401,
+        "namedTimes": 3
+      },
+      {
+        "month": 201402,
+        "namedTimes": 1
+      },
+      {
+        "month": 201403,
+        "namedTimes": 2
+      },
+      {
+        "month": 201404,
+        "namedTimes": 16
+      },
+      {
+        "month": 201405,
+        "namedTimes": 7
+      },
+      {
+        "month": 201406,
+        "namedTimes": 7
+      },
+      {
+        "month": 201407,
+        "namedTimes": 2
+      },
+      {
+        "month": 201408,
+        "namedTimes": 7
+      },
+      {
+        "month": 201409,
+        "namedTimes": 2
+      },
+      {
+        "month": 201410,
+        "namedTimes": 5
+      },
+      {
+        "month": 201411,
+        "namedTimes": 4
+      },
+      {
+        "month": 201412,
+        "namedTimes": 3
+      },
+      {
+        "month": 201501,
+        "namedTimes": 4
+      },
+      {
+        "month": 201502,
+        "namedTimes": 1
+      },
+      {
+        "month": 201503,
+        "namedTimes": 1
+      },
+      {
+        "month": 201504,
+        "namedTimes": 0
+      },
+      {
+        "month": 201505,
+        "namedTimes": 1
+      },
+      {
+        "month": 201506,
+        "namedTimes": 0
+      },
+      {
+        "month": 201507,
+        "namedTimes": 1
+      },
+      {
+        "month": 201508,
+        "namedTimes": 0
+      },
+      {
+        "month": 201509,
+        "namedTimes": 0
+      },
+      {
+        "month": 201510,
+        "namedTimes": 0
+      },
+      {
+        "month": 201511,
+        "namedTimes": 2
+      },
+      {
+        "month": 201512,
+        "namedTimes": 2
+      }
+    ],
+    "causeDetail": [
+      {
+        "causeType": "扒窃",
+        "namedTimes": 7,
+        "percent": "9.86%"
+      },
+      {
+        "causeType": "盗窃非机动车",
+        "namedTimes": 1,
+        "percent": "1.41%"
+      },
+      {
+        "causeType": "盗窃机动车",
+        "namedTimes": 4,
+        "percent": "5.63%"
+      },
+      {
+        "causeType": "拎包盗窃",
+        "namedTimes": 1,
+        "percent": "1.41%"
+      },
+      {
+        "causeType": "撬砸汽车",
+        "namedTimes": 7,
+        "percent": "9.86%"
+      },
+      {
+        "causeType": "入室盗窃",
+        "namedTimes": 42,
+        "percent": "59.15%"
+      },
+      {
+        "causeType": "诈骗",
+        "namedTimes": 9,
+        "percent": "12.68%"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "region": "东城区",
+    "namedTimes": 71,
+    "rank": 5,
+    "mostNamedStreet": "东城区北新桥",
+    "mostHappenTime": 201404,
+    "namedTimesDetail": [
+      {
+        "month": 201401,
+        "namedTimes": 7
+      },
+      {
+        "month": 201402,
+        "namedTimes": 5
+      },
+      {
+        "month": 201403,
+        "namedTimes": 5
+      },
+      {
+        "month": 201404,
+        "namedTimes": 13
+      },
+      {
+        "month": 201405,
+        "namedTimes": 5
+      },
+      {
+        "month": 201406,
+        "namedTimes": 6
+      },
+      {
+        "month": 201407,
+        "namedTimes": 4
+      },
+      {
+        "month": 201408,
+        "namedTimes": 7
+      },
+      {
+        "month": 201409,
+        "namedTimes": 4
+      },
+      {
+        "month": 201410,
+        "namedTimes": 5
+      },
+      {
+        "month": 201411,
+        "namedTimes": 4
+      },
+      {
+        "month": 201412,
+        "namedTimes": 1
+      },
+      {
+        "month": 201501,
+        "namedTimes": 1
+      },
+      {
+        "month": 201502,
+        "namedTimes": 0
+      },
+      {
+        "month": 201503,
+        "namedTimes": 1
+      },
+      {
+        "month": 201504,
+        "namedTimes": 0
+      },
+      {
+        "month": 201505,
+        "namedTimes": 0
+      },
+      {
+        "month": 201506,
+        "namedTimes": 2
+      },
+      {
+        "month": 201507,
+        "namedTimes": 1
+      },
+      {
+        "month": 201508,
+        "namedTimes": 0
+      },
+      {
+        "month": 201509,
+        "namedTimes": 0
+      },
+      {
+        "month": 201510,
+        "namedTimes": 0
+      },
+      {
+        "month": 201511,
+        "namedTimes": 0
+      },
+      {
+        "month": 201512,
+        "namedTimes": 0
+      }
+    ],
+    "causeDetail": [
+      {
+        "causeType": "扒窃",
+        "namedTimes": 8,
+        "percent": "11.27%"
+      },
+      {
+        "causeType": "盗窃非机动车",
+        "namedTimes": 2,
+        "percent": "2.82%"
+      },
+      {
+        "causeType": "盗窃机动车",
+        "namedTimes": 1,
+        "percent": "1.41%"
+      },
+      {
+        "causeType": "拎包盗窃",
+        "namedTimes": 1,
+        "percent": "1.41%"
+      },
+      {
+        "causeType": "抢劫/抢夺",
+        "namedTimes": 1,
+        "percent": "1.41%"
+      },
+      {
+        "causeType": "撬砸汽车",
+        "namedTimes": 6,
+        "percent": "8.45%"
+      },
+      {
+        "causeType": "入室盗窃",
+        "namedTimes": 34,
+        "percent": "47.89%"
+      },
+      {
+        "causeType": "诈骗",
+        "namedTimes": 18,
+        "percent": "25.35%"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "region": "昌平区",
+    "namedTimes": 15,
+    "rank": 7,
+    "mostNamedStreet": "昌平区天通苑",
+    "mostHappenTime": 201510,
+    "namedTimesDetail": [
+      {
+        "month": 201401,
+        "namedTimes": 0
+      },
+      {
+        "month": 201402,
+        "namedTimes": 0
+      },
+      {
+        "month": 201403,
+        "namedTimes": 0
+      },
+      {
+        "month": 201404,
+        "namedTimes": 0
+      },
+      {
+        "month": 201405,
+        "namedTimes": 0
+      },
+      {
+        "month": 201406,
+        "namedTimes": 0
+      },
+      {
+        "month": 201407,
+        "namedTimes": 0
+      },
+      {
+        "month": 201408,
+        "namedTimes": 0
+      },
+      {
+        "month": 201409,
+        "namedTimes": 0
+      },
+      {
+        "month": 201410,
+        "namedTimes": 0
+      },
+      {
+        "month": 201411,
+        "namedTimes": 0
+      },
+      {
+        "month": 201412,
+        "namedTimes": 0
+      },
+      {
+        "month": 201501,
+        "namedTimes": 4
+      },
+      {
+        "month": 201502,
+        "namedTimes": 0
+      },
+      {
+        "month": 201503,
+        "namedTimes": 0
+      },
+      {
+        "month": 201504,
+        "namedTimes": 0
+      },
+      {
+        "month": 201505,
+        "namedTimes": 2
+      },
+      {
+        "month": 201506,
+        "namedTimes": 2
+      },
+      {
+        "month": 201507,
+        "namedTimes": 0
+      },
+      {
+        "month": 201508,
+        "namedTimes": 0
+      },
+      {
+        "month": 201509,
+        "namedTimes": 0
+      },
+      {
+        "month": 201510,
+        "namedTimes": 5
+      },
+      {
+        "month": 201511,
+        "namedTimes": 1
+      },
+      {
+        "month": 201512,
+        "namedTimes": 1
+      }
+    ],
+    "causeDetail": [
+      {
+        "causeType": "扒窃",
+        "namedTimes": 3,
+        "percent": "20.00%"
+      },
+      {
+        "causeType": "盗窃非机动车",
+        "namedTimes": 1,
+        "percent": "6.67%"
+      },
+      {
+        "causeType": "入室盗窃",
+        "namedTimes": 10,
+        "percent": "66.67%"
+      },
+      {
+        "causeType": "诈骗",
+        "namedTimes": 1,
+        "percent": "6.67%"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "region": "大兴区",
+    "namedTimes": 8,
+    "rank": 8,
+    "mostNamedStreet": "大兴区黄村镇、魏善庄",
+    "mostHappenTime": 201506,
+    "namedTimesDetail": [
+      {
+        "month": 201401,
+        "namedTimes": 0
+      },
+      {
+        "month": 201402,
+        "namedTimes": 0
+      },
+      {
+        "month": 201403,
+        "namedTimes": 0
+      },
+      {
+        "month": 201404,
+        "namedTimes": 0
+      },
+      {
+        "month": 201405,
+        "namedTimes": 0
+      },
+      {
+        "month": 201406,
+        "namedTimes": 0
+      },
+      {
+        "month": 201407,
+        "namedTimes": 0
+      },
+      {
+        "month": 201408,
+        "namedTimes": 0
+      },
+      {
+        "month": 201409,
+        "namedTimes": 0
+      },
+      {
+        "month": 201410,
+        "namedTimes": 0
+      },
+      {
+        "month": 201411,
+        "namedTimes": 0
+      },
+      {
+        "month": 201412,
+        "namedTimes": 0
+      },
+      {
+        "month": 201501,
+        "namedTimes": 1
+      },
+      {
+        "month": 201502,
+        "namedTimes": 0
+      },
+      {
+        "month": 201503,
+        "namedTimes": 0
+      },
+      {
+        "month": 201504,
+        "namedTimes": 0
+      },
+      {
+        "month": 201505,
+        "namedTimes": 1
+      },
+      {
+        "month": 201506,
+        "namedTimes": 3
+      },
+      {
+        "month": 201507,
+        "namedTimes": 0
+      },
+      {
+        "month": 201508,
+        "namedTimes": 0
+      },
+      {
+        "month": 201509,
+        "namedTimes": 0
+      },
+      {
+        "month": 201510,
+        "namedTimes": 0
+      },
+      {
+        "month": 201511,
+        "namedTimes": 2
+      },
+      {
+        "month": 201512,
+        "namedTimes": 1
+      }
+    ],
+    "causeDetail": [
+      {
+        "causeType": "扒窃",
+        "namedTimes": 1,
+        "percent": "33.33%"
+      },
+      {
+        "causeType": "诈骗",
+        "namedTimes": 2,
+        "percent": "66.67%"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "region": "密云区",
+    "namedTimes": 3,
+    "rank": 9,
+    "mostNamedStreet": "密云区西滨河",
+    "mostHappenTime": 201501,
+    "namedTimesDetail": [
+      {
+        "month": 201401,
+        "namedTimes": 0
+      },
+      {
+        "month": 201402,
+        "namedTimes": 0
+      },
+      {
+        "month": 201403,
+        "namedTimes": 0
+      },
+      {
+        "month": 201404,
+        "namedTimes": 0
+      },
+      {
+        "month": 201405,
+        "namedTimes": 0
+      },
+      {
+        "month": 201406,
+        "namedTimes": 0
+      },
+      {
+        "month": 201407,
+        "namedTimes": 0
+      },
+      {
+        "month": 201408,
+        "namedTimes": 0
+      },
+      {
+        "month": 201409,
+        "namedTimes": 0
+      },
+      {
+        "month": 201410,
+        "namedTimes": 0
+      },
+      {
+        "month": 201411,
+        "namedTimes": 0
+      },
+      {
+        "month": 201412,
+        "namedTimes": 0
+      },
+      {
+        "month": 201501,
+        "namedTimes": 2
+      },
+      {
+        "month": 201502,
+        "namedTimes": 0
+      },
+      {
+        "month": 201503,
+        "namedTimes": 1
+      },
+      {
+        "month": 201504,
+        "namedTimes": 0
+      },
+      {
+        "month": 201505,
+        "namedTimes": 0
+      },
+      {
+        "month": 201506,
+        "namedTimes": 0
+      },
+      {
+        "month": 201507,
+        "namedTimes": 0
+      },
+      {
+        "month": 201508,
+        "namedTimes": 0
+      },
+      {
+        "month": 201509,
+        "namedTimes": 0
+      },
+      {
+        "month": 201510,
+        "namedTimes": 0
+      },
+      {
+        "month": 201511,
+        "namedTimes": 0
+      },
+      {
+        "month": 201512,
+        "namedTimes": 0
+      }
+    ],
+    "causeDetail": [
+      {
+        "causeType": "入室盗窃",
+        "namedTimes": 7,
+        "percent": "87.50%"
+      },
+      {
+        "causeType": "诈骗",
+        "namedTimes": 1,
+        "percent": "12.50%"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "region": "平谷区",
+    "namedTimes": 3,
+    "rank": 9,
+    "mostNamedStreet": "平谷区渔阳",
+    "mostHappenTime": "201501、201505、201507",
+    "namedTimesDetail": [
+      {
+        "month": 201401,
+        "namedTimes": 0
+      },
+      {
+        "month": 201402,
+        "namedTimes": 0
+      },
+      {
+        "month": 201403,
+        "namedTimes": 0
+      },
+      {
+        "month": 201404,
+        "namedTimes": 0
+      },
+      {
+        "month": 201405,
+        "namedTimes": 0
+      },
+      {
+        "month": 201406,
+        "namedTimes": 0
+      },
+      {
+        "month": 201407,
+        "namedTimes": 0
+      },
+      {
+        "month": 201408,
+        "namedTimes": 0
+      },
+      {
+        "month": 201409,
+        "namedTimes": 0
+      },
+      {
+        "month": 201410,
+        "namedTimes": 0
+      },
+      {
+        "month": 201411,
+        "namedTimes": 0
+      },
+      {
+        "month": 201412,
+        "namedTimes": 0
+      },
+      {
+        "month": 201501,
+        "namedTimes": 1
+      },
+      {
+        "month": 201502,
+        "namedTimes": 0
+      },
+      {
+        "month": 201503,
+        "namedTimes": 0
+      },
+      {
+        "month": 201504,
+        "namedTimes": 0
+      },
+      {
+        "month": 201505,
+        "namedTimes": 1
+      },
+      {
+        "month": 201506,
+        "namedTimes": 0
+      },
+      {
+        "month": 201507,
+        "namedTimes": 1
+      },
+      {
+        "month": 201508,
+        "namedTimes": 0
+      },
+      {
+        "month": 201509,
+        "namedTimes": 0
+      },
+      {
+        "month": 201510,
+        "namedTimes": 0
+      },
+      {
+        "month": 201511,
+        "namedTimes": 0
+      },
+      {
+        "month": 201512,
+        "namedTimes": 0
+      }
+    ],
+    "causeDetail": [
+      {
+        "causeType": "盗窃机动车",
+        "namedTimes": 1,
+        "percent": "33.33%"
+      },
+      {
+        "causeType": "拎包盗窃",
+        "namedTimes": 1,
+        "percent": "33.33%"
+      },
+      {
+        "causeType": "撬砸汽车",
+        "namedTimes": 1,
+        "percent": "33.33%"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "region": "怀柔区",
+    "namedTimes": 2,
+    "rank": 11,
+    "mostNamedStreet": "怀柔区北房、龙山",
+    "mostHappenTime": "201504、201511",
+    "namedTimesDetail": [
+      {
+        "month": 201401,
+        "namedTimes": 0
+      },
+      {
+        "month": 201402,
+        "namedTimes": 0
+      },
+      {
+        "month": 201403,
+        "namedTimes": 0
+      },
+      {
+        "month": 201404,
+        "namedTimes": 0
+      },
+      {
+        "month": 201405,
+        "namedTimes": 0
+      },
+      {
+        "month": 201406,
+        "namedTimes": 0
+      },
+      {
+        "month": 201407,
+        "namedTimes": 0
+      },
+      {
+        "month": 201408,
+        "namedTimes": 0
+      },
+      {
+        "month": 201409,
+        "namedTimes": 0
+      },
+      {
+        "month": 201410,
+        "namedTimes": 0
+      },
+      {
+        "month": 201411,
+        "namedTimes": 0
+      },
+      {
+        "month": 201412,
+        "namedTimes": 0
+      },
+      {
+        "month": 201501,
+        "namedTimes": 0
+      },
+      {
+        "month": 201502,
+        "namedTimes": 0
+      },
+      {
+        "month": 201503,
+        "namedTimes": 0
+      },
+      {
+        "month": 201504,
+        "namedTimes": 1
+      },
+      {
+        "month": 201505,
+        "namedTimes": 0
+      },
+      {
+        "month": 201506,
+        "namedTimes": 0
+      },
+      {
+        "month": 201507,
+        "namedTimes": 0
+      },
+      {
+        "month": 201508,
+        "namedTimes": 0
+      },
+      {
+        "month": 201509,
+        "namedTimes": 0
+      },
+      {
+        "month": 201510,
+        "namedTimes": 0
+      },
+      {
+        "month": 201511,
+        "namedTimes": 1
+      },
+      {
+        "month": 201512,
+        "namedTimes": 0
+      }
+    ],
+    "causeDetail": [
+      {
+        "causeType": "撬砸汽车",
+        "namedTimes": 1,
+        "percent": "50.00%"
+      },
+      {
+        "causeType": "入室盗窃",
+        "namedTimes": 1,
+        "percent": "50.00%"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "region": "通州区",
+    "namedTimes": 1,
+    "rank": 12,
+    "mostNamedStreet": "通州区张家湾",
+    "mostHappenTime": 201512,
+    "namedTimesDetail": [
+      {
+        "month": 201401,
+        "namedTimes": 0
+      },
+      {
+        "month": 201402,
+        "namedTimes": 0
+      },
+      {
+        "month": 201403,
+        "namedTimes": 0
+      },
+      {
+        "month": 201404,
+        "namedTimes": 0
+      },
+      {
+        "month": 201405,
+        "namedTimes": 0
+      },
+      {
+        "month": 201406,
+        "namedTimes": 0
+      },
+      {
+        "month": 201407,
+        "namedTimes": 0
+      },
+      {
+        "month": 201408,
+        "namedTimes": 0
+      },
+      {
+        "month": 201409,
+        "namedTimes": 0
+      },
+      {
+        "month": 201410,
+        "namedTimes": 0
+      },
+      {
+        "month": 201411,
+        "namedTimes": 0
+      },
+      {
+        "month": 201412,
+        "namedTimes": 0
+      },
+      {
+        "month": 201501,
+        "namedTimes": 0
+      },
+      {
+        "month": 201502,
+        "namedTimes": 0
+      },
+      {
+        "month": 201503,
+        "namedTimes": 0
+      },
+      {
+        "month": 201504,
+        "namedTimes": 0
+      },
+      {
+        "month": 201505,
+        "namedTimes": 0
+      },
+      {
+        "month": 201506,
+        "namedTimes": 0
+      },
+      {
+        "month": 201507,
+        "namedTimes": 0
+      },
+      {
+        "month": 201508,
+        "namedTimes": 0
+      },
+      {
+        "month": 201509,
+        "namedTimes": 0
+      },
+      {
+        "month": 201510,
+        "namedTimes": 0
+      },
+      {
+        "month": 201511,
+        "namedTimes": 0
+      },
+      {
+        "month": 201512,
+        "namedTimes": 1
+      }
+    ],
+    "causeDetail": [
+      {
+        "causeType": "入室盗窃",
+        "namedTimes": 1,
+        "percent": "100%"
+      }
+    ]
+  }
+]

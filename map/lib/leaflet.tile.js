@@ -1,0 +1,1 @@
+L.TileLayer.Esri=L.TileLayer.extend({initialize:function(i,e){i+="/tile/{z}/{y}/{x}",L.TileLayer.prototype.initialize.call(this,i,e)}}),L.tileLayer.esri=function(i,e){return new L.TileLayer.Esri(i,e)};
